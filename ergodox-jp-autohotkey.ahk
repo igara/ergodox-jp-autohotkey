@@ -24,6 +24,11 @@ RWin & c::
   Send, ^{c}
   return
 
+LWin & x::
+RWin & x::
+  Send, ^{x}
+  return
+
 LWin & v::
 RWin & v::
   Send, ^{v}
@@ -42,4 +47,29 @@ RWin & s::
 LWin & z::
 RWin & z::
   Send, ^{z}
+  return
+
+LWin & o::
+RWin & o::
+  Send, ^{o}
+  return
+
+LWin & p::
+RWin & p::
+  Send, ^{p}
+  return
+
+LWin & n::
+RWin & n::
+  Send, ^{n}
+  return
+
+LWin & t::
+RWin & t::
+  Send, ^{t}
+  return
+
+LWin & Enter::
+RWin & Enter::
+  Send, ^{Enter}
   return
